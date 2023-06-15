@@ -18,7 +18,7 @@
       "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'creative:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in minecraft:overworld run tp ~ ~200 ~'], interactable: false}"
     ],
     [
-      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'survival:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in creative:overworld run tp ~ ~200 ~'], interactable: false}"
+      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'minecraft:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in creative:overworld run tp ~ ~200 ~'], interactable: false}"
     ]
 
   ]
