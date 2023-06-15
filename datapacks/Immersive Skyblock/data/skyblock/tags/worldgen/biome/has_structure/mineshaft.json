@@ -1,0 +1,26 @@
+{
+  "values": [
+    "#skyblock:is_ocean",
+    "#skyblock:is_river",
+    "#skyblock:is_beach",
+    "#skyblock:is_mountain",
+    "#skyblock:is_hill",
+    "#skyblock:is_taiga",
+    "#skyblock:is_jungle",
+    "#skyblock:is_forest",
+    "skyblock:stony_shore",
+    "skyblock:mushroom_fields",
+    "skyblock:ice_spikes",
+    "skyblock:windswept_savanna",
+    "skyblock:desert",
+    "skyblock:savanna",
+    "skyblock:snowy_plains",
+    "skyblock:plains",
+    "skyblock:sunflower_plains",
+    "skyblock:swamp",
+    "skyblock:mangrove_swamp",
+    "skyblock:savanna_plateau",
+    "skyblock:dripstone_caves",
+    "skyblock:lush_caves"
+  ]
+}

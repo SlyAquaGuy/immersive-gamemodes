@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#skyblock:is_beach",
+    "#skyblock:is_river",
+    "#skyblock:is_taiga",
+    "#skyblock:is_forest",
+    "skyblock:mushroom_fields",
+    "skyblock:ice_spikes",
+    "skyblock:dripstone_caves",
+    "skyblock:lush_caves",
+    "skyblock:savanna",
+    "skyblock:snowy_plains",
+    "skyblock:plains",
+    "skyblock:sunflower_plains"
+  ]
+}

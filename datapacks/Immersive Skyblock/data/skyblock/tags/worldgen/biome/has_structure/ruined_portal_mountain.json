@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#skyblock:is_badlands",
+    "#skyblock:is_hill",
+    "skyblock:savanna_plateau",
+    "skyblock:windswept_savanna",
+    "skyblock:stony_shore",
+    "#skyblock:is_mountain"
+  ]
+}

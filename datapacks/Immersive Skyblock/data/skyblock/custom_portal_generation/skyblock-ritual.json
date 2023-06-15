@@ -1,0 +1,14 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [ "minecraft:overworld" ], "to": "skyblock:overworld",
+  "form": {
+    "type": "imm_ptl:one_way", "frame_block": "minecraft:polished_andesite",
+    "area_block": "minecraft:lava", "bi_faced": false
+  },
+  "trigger": { "type": "imm_ptl:throw_item", "item": "minecraft:diamond_block"},
+  "commands_on_generated": [
+    [
+      "/portal set_portal_destination skyblock:overworld 5 80 5"
+    ]
+  ]
+}

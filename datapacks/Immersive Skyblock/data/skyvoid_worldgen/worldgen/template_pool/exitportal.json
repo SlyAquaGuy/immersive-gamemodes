@@ -1,0 +1,15 @@
+{
+  "name": "skyvoid_worldgen:exitportal",
+  "fallback": "minecraft:empty",
+  "elements": [
+      {
+          "weight": 1,
+          "element": {
+              "location": "skyvoid_worldgen:exitportal",
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "processors": "minecraft:empty"
+          }
+      }
+  ]
+}

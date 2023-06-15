@@ -1,0 +1,11 @@
+{
+  "values": [
+    "skyblock:desert",
+    "skyblock:plains",
+    "skyblock:savanna",
+    "skyblock:snowy_plains",
+    "skyblock:taiga",
+    "#skyblock:is_mountain",
+    "skyblock:grove"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "skyblock:overworld"
+  ],
+  "to": "creative:overworld",
+  "reversible": false,
+  "form": {
+    "type": "imm_ptl:classical",
+    "from_frame_block": "minecraft:gold_block",
+    "area_block": "minecraft:air",
+    "to_frame_block": "minecraft:gold_block",
+    "generate_frame_if_not_found": true
+  },
+  "trigger": { "type": "imm_ptl:throw_item", "item": "minecraft:nether_star"},
+  "commands_on_generated":[
+    [
+      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'creative:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in skyblock:overworld run tp ~ ~200 ~'], interactable: false}"
+    ],
+    [
+      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'skyblock:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in creative:overworld run tp ~ ~200 ~'], interactable: false}"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "skyblock:the_end"
+  ],
+  "to": "skyblock:overworld",
+  "form": {
+    "type": "imm_ptl:one_way",
+    "frame_block": "minecraft:bedrock",
+    "area_block": "minecraft:air",
+    "bi_faced": true
+  },
+  "trigger": {
+    "type": "imm_ptl:use_item",
+    "item": "minecraft:flint_and_steel"
+  },
+  "commands_on_generated": [
+    [
+      "/portal set_portal_destination skyblock:overworld 3 80 2"
+    ]
+  ]
+}

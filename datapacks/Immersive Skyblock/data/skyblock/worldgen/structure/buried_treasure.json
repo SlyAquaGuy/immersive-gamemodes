@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:buried_treasure",
+  "biomes": "#skyblock:has_structure/buried_treasure",
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "skyblock:overworld"
+  ],
+  "to": "minecraft:overworld",
+  "form": {
+    "type": "imm_ptl:classical",
+    "from_frame_block": "minecraft:oxidized_copper",
+    "area_block": "minecraft:air",
+    "to_frame_block": "minecraft:oxidized_copper",
+    "generate_frame_if_not_found": true
+  },
+  "trigger": {
+    "type": "imm_ptl:use_item",
+    "item": "minecraft:flint_and_steel"
+  },
+  "commands_on_generated":[
+    [
+      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'minecraft:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in skyblock:overworld run tp ~ ~80 ~'], interactable: false}"
+    ],
+    [
+      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'skyblock:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in minecraft:overworld run tp ~ ~80 ~'], interactable: false}"
+    ]
+
+  ]
+
+
+   
+}
