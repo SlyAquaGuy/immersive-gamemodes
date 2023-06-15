@@ -9,7 +9,7 @@ Build a creative portal inside your base to experiment with Redstone, start a sk
 
 ## Recommended Installation 
 #### Dependencies
-I recommend my custom-made [Multiversal Vanilla](https://modrinth.com/modpack/multiversalvanilla) modpack for the best experience. It's been thoroughly tested and contains as many performance-enhancing mods as possible without conflicts with immersive portals.
+I recommend my custom-made [Multiversal Vanilla](https://modrinth.com/modpack/multiversalvanilla) modpack for the best experience. It's been thoroughly tested and contains as many performance-enhancing mods as possible without conflicting with immersive portals.
 
 [Immersive Portals](https://github.com/iPortalTeam/ImmersivePortalsMod) and [Dimensional Inventories](https://modrinth.com/mod/dimensional-inventories) are the core mods required to add full functionality to the pack.
 
