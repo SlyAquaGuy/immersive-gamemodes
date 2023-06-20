@@ -47,6 +47,12 @@
     "axolotls": [],
     "creature": [
       {
+        "type": "minecraft:wandering_trader",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 0.5
+      },
+{
         "type": "minecraft:sheep",
         "maxCount": 4,
         "minCount": 4,

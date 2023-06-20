@@ -8,7 +8,8 @@
   "trigger": { "type": "imm_ptl:throw_item", "item": "minecraft:diamond_block"},
   "commands_on_generated": [
     [
-      "/portal set_portal_destination skyblock:overworld 5 80 5"
+      "/portal set_portal_destination skyblock:overworld 5 80 5",
+      "/execute as @e[type=immersive_portals:one_way,nbt={dimensionTo:'skyblock:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in minecraftoverworld run tp ~ ~80 ~'], interactable: false}"
     ]
   ]
 }
