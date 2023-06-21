@@ -47,6 +47,6 @@ Care was taken to ensure the datapack doesn't enable any major exploits in a wor
 - Portals can only be made from survival to creative.
 
 ## Credits
-Special thanks to Quoteall for [Immersive Portals](https://github.com/iPortalTeam/ImmersivePortalsMod) and Thomilist for [Dimensional Inventories](https://modrinth.com/mod/dimensional-inventories).
+Special thanks to Qouteall for [Immersive Portals](https://github.com/iPortalTeam/ImmersivePortalsMod) and Thomilist for [Dimensional Inventories](https://modrinth.com/mod/dimensional-inventories).
 
-Huge shoutout to BluePsychoRanger for their [Skyblock Datapacks](https://github.com/BluePsychoRanger/SkyBlock_Collection) whitch I adapted for the worldgen. Skyblock wouldn't have been possible without it.
+Huge shoutout to BluePsychoRanger for their [Skyblock Datapacks](https://github.com/BluePsychoRanger/SkyBlock_Collection) which I adapted for the worldgen. Skyblock wouldn't have been possible without it.
