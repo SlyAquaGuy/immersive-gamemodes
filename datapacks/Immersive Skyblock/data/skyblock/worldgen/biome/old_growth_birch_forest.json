@@ -53,7 +53,7 @@
         "type": "minecraft:wandering_trader",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 0.5
+        "weight": 2
       },
 {
         "type": "minecraft:sheep",

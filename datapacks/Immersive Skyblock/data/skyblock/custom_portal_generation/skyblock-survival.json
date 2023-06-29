@@ -17,14 +17,10 @@
   },
   "commands_on_generated":[
     [
-      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'minecraft:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in skyblock:overworld run tp ~ ~80 ~'], interactable: false}"
+      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'minecraft:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in skyblock:overworld run tp ~ ~80 ~', 'scoreboard players set @p overworldreturn 1'], interactable: false}"
     ],
     [
-      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'skyblock:overworld'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in minecraft:overworld run tp ~ ~80 ~'], interactable: false}"
+      "/execute as @e[type=immersive_portals:general_breakable_portal,nbt={dimensionTo:'skyblock:overworld', portalTag:'skyblock:skyblock-survival'}] run portal set_portal_nbt {commandsOnTeleported:['/execute as @e[type=!immersive_portals:general_breakable_portal, type=!minecraft:player, distance=..1] in minecraft:overworld run tp ~ ~80 ~'], interactable: false}"
     ]
-
-  ]
-
-
-   
+  ]   
 }
